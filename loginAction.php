@@ -31,6 +31,7 @@
         if ($linha == null) {
             echo '
             <a href="index.php>
+                <h1 class="w3-button w3-teal">Login invalido!</h1>
             ';
         }
 
@@ -47,6 +48,7 @@
         </a>
         ';
         }
+        $conexao->close();
         ?>
     </div>
 </body>
